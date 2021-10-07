@@ -33,7 +33,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 let homeSwiper = new Swiper(".home-swiper", {
     spaceBetween: 30,
     loop: 'true',
-    
+
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -76,7 +76,7 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-/*=============== SHOW SCROLL UP ===============*/ 
+/*=============== SHOW SCROLL UP ===============*/
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
     // When the scroll is higher than 460 viewport height, add the show-scroll class to the a tag with the scroll-top class
@@ -88,8 +88,8 @@ window.addEventListener('scroll', scrollUp)
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 2500,
-    delay: 400,
+    duration: 1500,
+    delay: 100,
     // reset: true
 })
 
